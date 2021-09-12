@@ -1,0 +1,29 @@
+{
+  "name": "hossautobanbot",
+  "version": "1.0.0",
+  "description": "Twitch chatbot that automatically bans followers with \"hoss\" or \"h0ss\" in their name (common IP-grabbing bots on Twitch).",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "test": "nodemon ./src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BradonZhang/HossAutobanBot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BradonZhang/HossAutobanBot/issues"
+  },
+  "homepage": "https://github.com/BradonZhang/HossAutobanBot#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "tmi.js": "^1.8.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.9.1",
+    "@types/tmi.js": "^1.7.2"
+  }
+}
